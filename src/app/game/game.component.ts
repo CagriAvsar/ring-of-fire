@@ -39,7 +39,7 @@ export class GameComponent implements OnInit {
        this.game.currentCard = game.currentCard;
       })
     })
-
+this.openDialog();
   }
 
   newGame() {
