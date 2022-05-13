@@ -1,0 +1,25 @@
+.player {
+    background-color: rgba($color: #c2c2c2, $alpha: 1.0);
+    width: 250px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 200px 0 0 200px;
+    transform: translateX(230px);
+    transition: all 125ms ease-in-out;
+    img {
+        width: 30px;
+    }
+    span {
+        margin-left: 16px;
+        color: #ffff;
+        font-size: 24px;
+    }
+}
+
+.player-active {
+    background-color: #521a06;
+    transform: translateX(150px);
+}

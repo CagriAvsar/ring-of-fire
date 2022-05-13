@@ -1,0 +1,6 @@
+<mat-card>
+    <!-- if the variable  "card" exist, show value, otherwise 'this text' -->
+    <mat-card-title>{{ card ? title : 'Please pick a card' }}</mat-card-title>
+
+    <mat-card-content>{{ card ? description : 'Please click on card stack to select the next card.' }}</mat-card-content>
+</mat-card>
