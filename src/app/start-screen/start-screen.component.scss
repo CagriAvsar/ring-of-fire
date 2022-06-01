@@ -1,6 +1,6 @@
 .start-screen-container {
     position: relative;
-    height: 100%;
+    height: 100vh;
     img {
         width: 100vw;
         height: 100vh;
@@ -75,5 +75,60 @@
         color: rgba(0, 0, 0, 1);
         background: rgba(255, 255, 255, 1);
         box-shadow: 0 -35px 40px 30px rgba(255, 130, 10, 0), 0 -30px 30px 10px rgba(230, 30, 10, 0), 0 -20px 10px 0 rgba(255, 255, 10, 0);
+    }
+}
+
+// ############################
+//      RESPONSIVE 960px
+@media (max-width: 960px) {
+    h1 {
+        right: 38% !important;
+    }
+    .start-btn {
+        right: 36% !important;
+    }
+}
+
+// ############################
+//      RESPONSIVE 720px
+@media (max-width: 720px) {
+    h1 {
+        right: 33% !important;
+    }
+    .start-btn {
+        right: 30% !important;
+    }
+}
+
+// ############################
+//      RESPONSIVE 560px
+@media (max-width: 560px) {
+    h1 {
+        right: 28% !important;
+    }
+    .start-btn {
+        right: 25% !important;
+    }
+}
+
+// ############################
+//      RESPONSIVE 470px
+@media (max-width: 470px) {
+    h1 {
+        right: 23% !important;
+    }
+    .start-btn {
+        right: 20% !important;
+    }
+}
+
+// ############################
+//      RESPONSIVE 360px
+@media (max-width: 470px) {
+    h1 {
+        right: 17% !important;
+    }
+    .start-btn {
+        right: 12% !important;
     }
 }

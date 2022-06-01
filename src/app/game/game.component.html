@@ -1,6 +1,6 @@
-<app-player *ngFor="let player of game?.players; let i = index" [ngStyle]="{'top.px': 20 + (i * 70)}" [name]="player" [playerActive]="i == game?.currentPlayer" class="player-component">
+<app-player *ngFor="let player of game?.players; let i = index" [ngStyle]="{'top.px': 20 + (i * 70)}" [name]="player" [playerActive]="i == game?.currentPlayer" class="player-component hide-desktop"></app-player>
 
-</app-player>
+<app-player-mobile *ngFor="let player of game?.players; let i = index" [ngStyle]="{'right.px': 30 + (i * 70), 'top.px': 0}" [name]="player" [playerActive]="i == game?.currentPlayer" class="player-component hide-mobile"></app-player-mobile>
 
 <div class="game-bg">
 
